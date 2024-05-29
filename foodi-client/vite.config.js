@@ -4,8 +4,8 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  root: 'src', // If your index.html is in src directory
+  root: '.', // Ensure this is pointing to the correct directory
   build: {
-    outDir: 'dist',
+    outDir: 'dist', // Ensure this matches your output directory
   },
 });
