@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "mcg-food",
+    "food": "mcg-food"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
